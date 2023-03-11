@@ -10,16 +10,20 @@
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
-
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Talmer Anderson de Figueiredo Filho
+* Gabriel Fernandes de Araújo
+* Gabriel Rocha Lopes
+* Kayk da Silva Souza
+* Eduardo Gobbi Gualberto
+* Rodrigo Fernandes Ribeiro Pinto
+* André de Souza Martins
+* Rafael Cunha Santos 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Fábio Leandro Rodrigues Cordeiro
+* Cristiano Geraldo Teixeira Silva
+* Franciele Cristina Parreiras Rodrigues
 
 # Planejamento
 
