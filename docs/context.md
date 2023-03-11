@@ -22,10 +22,12 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+A* A rede tem como objetivo: 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
+* Contribuir com a divulgação dos eventos musicais na região de Belo Horizonte, com o intuito de gerar maior engajamento cultural, através da criação de um sistema de notificações; 
+
+* Criação de um novo meio de interação para aqueles que buscam visibilidade em seus projetos e inserção no meio artístico, através de uma interface simples;
+* 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
