@@ -22,7 +22,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-A* A rede tem como objetivo: 
+* A rede tem como objetivo: 
 
 * Contribuir com a divulgação dos eventos musicais na região de Belo Horizonte, com o intuito de gerar maior engajamento cultural, através da criação de um sistema de notificações; 
 
