@@ -18,6 +18,7 @@ O projeto desenvolvido será uma rede social voltada a área musical para compar
 * Rodrigo Fernandes Ribeiro Pinto
 * André de Souza Martins
 * Rafael Cunha Santos 
+* Lívia Helen Pereira Almeida
 
 ## Orientador
 
