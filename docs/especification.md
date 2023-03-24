@@ -48,8 +48,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário se cadastre  | ALTA |  |
 |RF-002| Emitir um relatório de atualizações semanal   | ALTA | |
-|RF-003| permitir publicações de arquivos de mídia   | ALTA | |
-|RF-004| permitir personalização de perfil   | ALTA | |
+|RF-003| Permitir publicações de arquivos de mídia   | ALTA | |
+|RF-004| Permitir personalização de perfil   | ALTA | |
 
 
 ### Requisitos não Funcionais
