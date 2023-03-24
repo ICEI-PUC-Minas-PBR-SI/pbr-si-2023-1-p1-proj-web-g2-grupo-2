@@ -1,19 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+  Foi identificado que há uma carência nas redes sociais de espaços destinados exclusivamente ao mercado musical, tanto voltados para a divulgação quanto para comunicação entre os artistas. Então, a publicidade de shows e eventos musicais se torna dispersa em meio as outras tantas informações nas redes, tendo como intuito de aglutinar essas informações. Além disso, criar um espaço para aqueles que buscam bandas para se integrarem e trocarem experiências. 
 
 ## Problema
-Nossa aplicação tem como intuito:
+  A aplicação tem como intuito: Ajudar pessoas que buscam iniciar no mundo musical; Ajudar na divulgação de seus trabalhos e projetos nesse nicho; Impulsionar o turismo na cidade de Belo Horizonte;
 
-* Ajudar pessoas que buscam iniciar no mundo musical;
-
-* Ajudar na divulgação de seus trabalhos e projetos musicais;
-
-* Impulsionar o turismo musical na cidade de Belo Horizonte;
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -22,33 +13,22 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-* A rede tem como objetivo: 
-
-* Contribuir com a divulgação dos eventos musicais na região de Belo Horizonte, com o intuito de gerar maior engajamento cultural, através da criação de um sistema de notificações; 
-
-* Criação de um novo meio de interação para aqueles que buscam visibilidade em seus projetos e inserção no meio artístico, através de uma interface simples;
+  A aplicação tem como objetivo: Contribuir com a divulgação dos eventos musicais na região de Belo Horizonte, com o intuito de gerar maior engajamento cultural, através da criação de um sistema de notificações; Criação de um novo meio de interação para aqueles que buscam visibilidade em seus projetos e inserção no meio artístico, através de uma interface simples;
 * 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-* O grupo identificou uma carência nas redes sociais de espaços de conversação voltados exclusivamente para música e relacionados;
-
-* Também vimos a dificuldade de novos produtores para ingressarem no meio, ademais para promover movimentação cultural;
+  Foi identificado uma carência nas redes sociais de espaços de conversação voltados exclusivamente para música e relacionados; Também foi constatado a dificuldade de novos produtores para ingressarem no meio, ademais para promover movimentação cultural;
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-* Músicos de todas as idades que procuram um lugar sociável;
+ O público alvo da aplicação são os músicos de todas as idades que procuram um lugar sociável; Bandas em busca de novos membros para formação; Também para jovens e Adultos interessados em shows ou pubs para se divertirem com uma boa música;
 
-* Bandas em busca de novos membros para formação;
-
-* Também para jovens e Adultos interessados em shows ou pubs para se divertirem com uma boa música;
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
