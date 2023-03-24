@@ -47,9 +47,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário se cadastre  | ALTA |  |
-|RF-002| Emitir um relatório de atualizações semanal   | MÉDIA | |
+|RF-002| Emitir um relatório de atualizações semanal   | ALTA | |
 |RF-003| permitir publicações de arquivos de mídia   | ALTA | |
-|RF-004| permitir publicações de arquivos de mídia   | ALTA | |
+|RF-004| permitir personalização de perfil   | ALTA | |
 
 
 ### Requisitos não Funcionais
@@ -58,6 +58,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Uma quatidade máxima de tamanho de arquivo postado |  ALTA | 
+|RNF-004| A aplicação deve ser segura e responsável com as informações do usuário  |  ALTA |
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
