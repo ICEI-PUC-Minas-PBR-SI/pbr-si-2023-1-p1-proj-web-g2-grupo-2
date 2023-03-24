@@ -46,11 +46,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário se cadastre  | ALTA |  |
-|RF-002| Emitir um relatório de atualizações semanal   | ALTA | |
-|RF-003| Permitir publicações de arquivos de mídia   | ALTA | |
-|RF-004| Permitir personalização de perfil   | ALTA | |
-|RF-005| Notificar o usuário  | ALTA | |
+|RF-001| Permitir que o usuário se cadastre  | ALTA | BAIXA |
+|RF-002| Emitir um relatório de atualizações semanal   | ALTA | ALTA |
+|RF-003| Permitir publicações de arquivos de mídia   | ALTA | MÉDIA |
+|RF-004| Permitir personalização de perfil   | ALTA |  ALTA |
+|RF-005| Notificar o usuário  | ALTA | MÉDIA|
 
 
 ### Requisitos não Funcionais
