@@ -50,6 +50,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Emitir um relatório de atualizações semanal   | ALTA | |
 |RF-003| Permitir publicações de arquivos de mídia   | ALTA | |
 |RF-004| Permitir personalização de perfil   | ALTA | |
+|RF-005| Notificar o usuário  | ALTA | |
 
 
 ### Requisitos não Funcionais
