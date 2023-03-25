@@ -57,7 +57,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Uma quatidade máxima de tamanho de arquivo postado |  ALTA | 
+|RNF-001| Uma quantidade máxima de tamanho de arquivo postado |  ALTA | 
 |RNF-002| A aplicação deve ser segura e responsável com as informações do usuário  |  ALTA |
 |RNF-003| Ter alta diponibilidade: 98% do tempo |  ALTA |
 |RNF-004| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
