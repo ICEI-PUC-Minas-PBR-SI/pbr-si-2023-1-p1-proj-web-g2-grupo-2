@@ -1,14 +1,13 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Com o mundo cada vez mais conectado, é comum que muitos artistas e músicos busquem formas de divulgar seus projetos e alcançar visibilidade em um meio tão competitivo. A TurtleSpace está sendo criada para ajudar esses artistas. Roberto é um jovem músico em busca de ingressar no meio, para isso utilizará a plataforma como meio de se conectar com outras pessoas, divulgando o seu trabalho independente para outros acessarem. Além de querer ser notificado sobre os eventos culturais da cidade de Belo Horizonte, garantido-o segurança de suas informações e responsividade, para que possa acessar a plataforma de qualquer dispositivo.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
- Roberto De Souza, 23 anos, cursando administração, grande fã da área musical. Com o objetivo de descobrir novos artistas e em busca de formar uma banda.
-Nesta rede social o objetivo é compartilhar músicas favoritas, discutir sobre as últimas tendências, descobrir novos artistas e também ajudar na formação de novos grupos.
- O principal objetivo é fazer com que a rede social seja o lugar perfeito para todos os amantes da música, independentemente do gênero.
+ Roberto tem 23 anos e cursa administração, é um grande entusiasta da área musical. Tem o objetivo de descobrir novos artistas para que possam trocar as suas experiências e possivelmente formar uma banda.
+ 
+ Diego possui 18 anos e está formando no ensino médio, músico amador, decidiu passar suas férias em Belo Horizonte na casa de sua avó, com o ojetivo de conhecer um pouco sobre seu hobby. 
 
 
 > **Links Úteis**:
@@ -19,7 +18,6 @@ Nesta rede social o objetivo é compartilhar músicas favoritas, discutir sobre 
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
 >
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -30,8 +28,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
- A ideia é que os artistas possam criar seus perfis e compartilhar suas músicas, fotos, vídeos e informações sobre o meio musical em um único lugar. Além disso, a plataforma também oferece recursos de ajudar os usuários a se destacarem e atrair a atenção do público.
- A interface intuitiva da plataforma permite que qualquer pessoa possa utilizá-la sem dificuldades. A ideia é que o usuário possa facilmente criar e atualizar seu perfil, adicionar conteúdo e se conectar com outros artistas. Com isso, a plataforma oferece uma nova forma de interação para aqueles que buscam visibilidade em seus projetos e inserção no meio artístico musical.
+Roberto gostaria de se cadastrar e criar o seu perfil para que outras bandas o vejam. Já Carla, tenho o intuito de convidar seus amigos para que conheçam um pouco sobre o ramo musical. Por sua vez Adriana deseja interagir com outras pessoas sobre a cena. Diego, turista, está em busca de se manter informado sobre os eventos em Belo Horizonte, já que irá passar uma semana de férias na cidade.
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -49,7 +47,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| Permitir que o usuário se cadastre  | ALTA | BAIXA |
-|RF-002| Emitir um relatório de atualizações semanal   | ALTA | ALTA |
+|RF-002| Emitir um relatório de atualizações semanais   | ALTA | ALTA |
 |RF-003| Permitir publicações de arquivos de mídia   | ALTA | MÉDIA |
 |RF-004| Permitir personalização de perfil   | ALTA |  ALTA |
 |RF-005| Notificar o usuário  | ALTA | MÉDIA|
