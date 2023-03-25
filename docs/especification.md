@@ -6,9 +6,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+ Roberto De Souza, 23 anos, cursando administração, grande fã da área musical. Com o objetivo de descobrir novos artistas e em busca de formar uma banda.
+Nesta rede social o objetivo é compartilhar músicas favoritas, discutir sobre as últimas tendências, descobrir novos artistas e também ajudar na formação de novos grupos.
+ O principal objetivo é fazer com que a rede social seja o lugar perfeito para todos os amantes da música, independentemente do gênero.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -29,7 +30,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+ A ideia é que os artistas possam criar seus perfis e compartilhar suas músicas, fotos, vídeos e informações sobre o meio musical em um único lugar. Além disso, a plataforma também oferece recursos de ajudar os usuários a se destacarem e atrair a atenção do público.
+ A interface intuitiva da plataforma permite que qualquer pessoa possa utilizá-la sem dificuldades. A ideia é que o usuário possa facilmente criar e atualizar seu perfil, adicionar conteúdo e se conectar com outros artistas. Com isso, a plataforma oferece uma nova forma de interação para aqueles que buscam visibilidade em seus projetos e inserção no meio artístico musical.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
