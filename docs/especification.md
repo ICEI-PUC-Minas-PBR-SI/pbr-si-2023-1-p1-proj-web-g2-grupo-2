@@ -8,6 +8,12 @@ Com o mundo cada vez mais conectado, é comum que muitos artistas e músicos bus
  Roberto tem 23 anos e cursa administração, é um grande entusiasta da área musical. Tem o objetivo de descobrir novos artistas para que possam trocar as suas experiências e possivelmente formar uma banda.
  
  Diego possui 18 anos e está formando no ensino médio, músico amador, decidiu passar suas férias em Belo Horizonte na casa de sua avó, com o ojetivo de conhecer um pouco sobre seu hobby. 
+ 
+ Ana tem 30 anos, apaixonada por música desde criança e sempre teve vontade de trabalhar na área de entretenimento. Ela gosta de diversos estilos musicais, mas tem uma queda especial pelo rock e pop. Ana está em busca de bandas musicais com potencial para se apresentar em eventos corporativos e festas particulares. Ela busca artistas que tenham um repertório variado, boa presença de palco e que sejam profissionais e comprometidos com a carreira.
+ 
+ Lucas 28 anos, um jovem músico que acabou de começar uma carreira solo e está tentando estabelecer a presença na cena musical local. Ele toca guitarra e canta suas próprias músicas, e tem uma paixão pela música desde a adolescência. Lucas está em busca de reconhecimento no cenário musical com a divulgações das suas músicas e com os shows.
+ 
+ Carlos 24 anos, é um jovem produtor musical que está sempre em busca de novas bandas para trabalhar em seus projetos. Ele tem um ouvido apurado para música e está sempre procurando por talentos emergentes para promover e ajudar a crescer.
 
 
 > **Links Úteis**:
