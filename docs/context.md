@@ -13,8 +13,9 @@
 
 ## Objetivos
 
-  A aplicação tem como objetivo: Contribuir com a divulgação dos eventos musicais na região de Belo Horizonte, com o intuito de gerar maior engajamento cultural, através da criação de um sistema de notificações; Criação de um novo meio de interação para aqueles que buscam visibilidade em seus projetos e inserção no meio artístico, através de uma interface simples;
-* 
+-Contribuir com a divulgação dos eventos musicais de todo o Brasil, com o intuito de gerar maior engajamento cultural, através da criação de um sistema de notificações; 
+-Criação de um novo meio de interação para aqueles que buscam visibilidade em seus projetos e inserção no meio artístico, através de uma interface simples;
+ 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
