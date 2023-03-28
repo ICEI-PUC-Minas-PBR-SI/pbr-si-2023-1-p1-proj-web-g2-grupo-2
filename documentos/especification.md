@@ -1,7 +1,12 @@
 # Especificações do Projeto
 
-Com o mundo cada vez mais conectado, é comum que muitos artistas e músicos busquem formas de divulgar seus projetos e alcançar visibilidade em um meio tão competitivo. A TurtleSpace está sendo criada para ajudar esses artistas. Roberto é um jovem músico em busca de ingressar no meio, para isso utilizará a plataforma como meio de se conectar com outras pessoas, divulgando o seu trabalho independente para outros acessarem. Além de querer ser notificado sobre os eventos culturais da cidade de Belo Horizonte, garantido-o segurança de suas informações e responsividade, para que possa acessar a plataforma de qualquer dispositivo.
+Com o mundo cada vez mais conectado, é comum que muitos artistas e músicos busquem formas de divulgar seus projetos e alcançar visibilidade em um meio tão competitivo. A TurtleSpace está sendo criada para ajudar esses artistas   a alcançar seu potencial e se conectar com outras pessoas do meio musical.  
 
+A ideia é que os artistas possam criar seus perfis e compartilhar suas músicas, fotos, vídeos e informações sobre o meio musical em um único lugar. Além disso, a plataforma também oferece a fncionalidae recursos de ajudar os usuários a se destacarem e atrair a atenção do público.
+
+Uma dessas funcionalidades, é a possibilidade de enviar solicitações de colaboração com outros artistas, produtores e músicos. Essa funcionalidade permite que os usuários se conectem com pessoas do meio musical que possam ajudá-los a expandir seus horizontes e se inserir no mercado. Com isso, é possível criar parcerias e desenvolver novos projetos em conjunto. Além de ser uma ferramenta útil para os artistas, a plataforma também pode ser uma excelente oportunidade para produtores, gravadoras e outras pessoas do meio musical descobrirem novos talentos e projetos. Com a possibilidade de colaboração e compartilhamento de conteúdo, é possível criar uma rede de contatos e se conectar com pessoas do meio musical de forma mais fácil e eficiente.
+
+No projeto a ser trabalhado, será utilizado as tecnologias HTML, CSS e Bootstrap para desenvolver a interface do usuário, enquanto o armazenamento local será gerenciado pelo LocalStorage, e para a interação com o servidor faremos uso do CRUD server.
 
 ## Personas
 
