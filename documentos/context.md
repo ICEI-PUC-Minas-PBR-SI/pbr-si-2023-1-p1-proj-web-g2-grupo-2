@@ -1,6 +1,5 @@
 # Introdução
-
-  Foi identificado que há uma carência nas redes sociais de espaços destinados exclusivamente ao mercado musical, tanto voltado para a divulgação quanto para comunicação entre os artistas. Então, a publicidade de shows e eventos musicais se torna dispersa em meio as outras tantas informações nas redes, tendo como intuito de aglutinar essas informações. Além disso, criar um espaço para aqueles que buscam bandas para se integrarem e trocarem experiências. 
+  É perceptível que ingressar na carreira musical não é nada fácil, havendo uma carência nas redes sociais de espaços destinados exclusivamente ao mercado musical, tanto voltado para a divulgação quanto para comunicação entre os artistas, além dos prejuízos notáveis que a pandemia deixou em todos os campos da sociedade, afentando principalmente aqueles independentes. Então para facilitar o acesso e o surgimento de novos talentos, a TurtleSpace chega pra somar com uma ideia inovadora. Será desenvolvida então uma rede social voltada a área musical para compartilhamento de músicas, produtos autorais, desenvolvimento social, e para novas oportunidades aqueles que buscam ingresso no meio descrito.
 
 ## Problema
   A aplicação tem como intuito: ajudar pessoas que buscam iniciar no mundo musical; Ajudar na divulgação de seus trabalhos e projetos nesse nicho; Impulsionar o turismo na cidade de Belo Horizonte;
@@ -19,8 +18,7 @@
 
 ## Justificativa
 
-  Foi identificado uma carência nas redes sociais de espaços de conversação voltados exclusivamente para música e relacionados; Também foi constatado a dificuldade de novos produtores para ingressarem no meio, ademais para promover movimentação cultural;
-
+  A ideia principal é que os artistas possam criar seus perfis, personaliza-los, compartilhar fotos e vídeos de suas obras autorais ou até mesmo covers, para ganhar mais notoriedade e visibilidade em um espaço dedicado. Quem sabe achar uma banda? Um produtor? Um músico para completar a sua banda ou até mesmo colaborações? Ou talvez apenas conversar com muitos outros usuários para conhecer novas pessoas e até parceiros para o acompanharem em shows pela cidade. As possibilidades são grandes e a comunidade descobrirá como utiliza-la. 
 
 
 ## Público-Alvo
