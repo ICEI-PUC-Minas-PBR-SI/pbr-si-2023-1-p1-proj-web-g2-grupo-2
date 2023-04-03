@@ -36,7 +36,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Administrador       | Alterar permissões                 | Aparagar posts ofensivos  |
 
-Roberto gostaria de se cadastrar e criar o seu perfil para que possa conhecer parceiros que possam o acompanhar em shows e apresentações que acontecem pela cidade, se inserindo em um novo meio social. Já Diego, tem o intuito de crirar seu perfil e personaliza-lo para que possa conhecer outros atistas do ramo. Por sua vez, Ana, busca novas oportunidades de seu profissionalizar e conhecer novas pessoas para se inserir no meio músical. Lucas, músico, procura reconhecimento de seus colegas de proffisão através de suas publicações. Carlos, deseja encontrar pessoas bem como Lucas, para que possam ser produzidos e impulsinadoss, montando sua rede de apoio e almentando o seu portifólio de produções e lançamentos de artistas
+Roberto gostaria de se cadastrar e criar o seu perfil para que possa conhecer parceiros que possam o acompanhar em shows e apresentações que acontecem pela cidade, se inserindo em um novo meio social. Já Diego, tem o intuito de crirar seu perfil e personaliza-lo para que possa conhecer outros atistas do ramo. Por sua vez, Ana, busca novas oportunidades de seu profissionalizar e conhecer novas pessoas para se inserir no meio músical. Lucas, músico, procura reconhecimento de seus colegas de proffisão através de suas publicações. Carlos, deseja encontrar pessoas bem como Lucas, para que possam ser produzidos e impulsinados, montando sua rede de apoio e almentando o seu portifólio de produções e lançamentos de artistas.
 
 
 
