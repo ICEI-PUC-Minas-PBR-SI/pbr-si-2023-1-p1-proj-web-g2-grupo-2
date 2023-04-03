@@ -9,7 +9,9 @@
 
 ## Objetivos
 
--Contribuir com a divulgação dos eventos musicais de todo o Brasil, com o intuito de gerar maior engajamento cultural, através da criação de um sistema de notificações; 
+- Ajudar pessoas que buscam iniciar no mundo musical; 
+- Ajudar na divulgação de seus trabalhos e projetos nesse nicho;
+- Contribuir com a divulgação dos eventos musicais de todo o Brasil, com o intuito de gerar maior engajamento cultural, através da criação de um sistema de notificações; 
 
 
 -Criação de um novo meio de interação para aqueles que buscam visibilidade em seus projetos e inserção no meio artístico, através de uma interface simples;
