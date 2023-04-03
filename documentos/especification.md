@@ -29,10 +29,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Usuário do sistema  | Registrar meus arquirvos de mídia           | Publicar-las               |
+|Usuário do sistema  | Ser notificado de novos eventos           | Para que seja possível um informativo    |
+|Usuário do sistema  | Criar meu perfil           | Para que outras pessoas possam me identificar mais fácil              |
+|Usuário do sistema  | Postar mensagens de texto           | Para uma comunicação mais flúida               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Administrador       | Alterar permissões                 | Aparagar posts ofensivos  |
 
-Roberto gostaria de se cadastrar e criar o seu perfil para que outras bandas o vejam. Já Carla, tenho o intuito de convidar seus amigos para que conheçam um pouco sobre o ramo musical. Por sua vez Adriana deseja interagir com outras pessoas sobre a cena. Diego, turista, está em busca de se manter informado sobre os eventos em Belo Horizonte, já que irá passar uma semana de férias na cidade.
+Roberto gostaria de se cadastrar e criar o seu perfil para que possa conhecer parceiros que possam o acompanhar em shows e apresentações que acontecem pela cidade, se inserindo em um novo meio social. Já Diego, tem o intuito de crirar seu perfil e personaliza-lo para que possa conhecer outros atistas do ramo. Por sua vez, Ana, busca novas oportunidades de seu profissionalizar e conhecer novas pessoas para se inserir no meio músical. Lucas, músico, procura reconhecimento de seus colegas de proffisão através de suas publicações. Carlos, deseja encontrar pessoas bem como Lucas, para que possam ser produzidos e impulsinadoss, montando sua rede de apoio e almentando o seu portifólio de produções e lançamentos de artistas
 
 
 
@@ -50,6 +54,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Permitir publicações de arquivos de mídia   | ALTA | MÉDIA |
 |RF-004| Permitir personalização de perfil   | ALTA |  ALTA |
 |RF-005| Notificar o usuário  | ALTA | MÉDIA|
+|RF-006| Publicação de posts  | ALTA | MÉDIA|
+|RF-007| personalização de posts  | ALTA | MÉDIA|
 
 
 ### Requisitos não Funcionais
@@ -63,21 +69,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| Executável por qualquer aparelho |  MÉDIA |
 |RNF-006| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
