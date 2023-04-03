@@ -22,14 +22,6 @@ No projeto a ser trabalhado, será utilizado as tecnologias HTML, CSS e Bootstra
  Carlos 24 anos, é um jovem produtor musical que está sempre em busca de novas bandas para trabalhar em seus projetos. Ele tem um ouvido apurado para música e está sempre procurando por talentos emergentes para promover e ajudar a crescer.
 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
 
 ## Histórias de Usuários
 
@@ -43,12 +35,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 Roberto gostaria de se cadastrar e criar o seu perfil para que outras bandas o vejam. Já Carla, tenho o intuito de convidar seus amigos para que conheçam um pouco sobre o ramo musical. Por sua vez Adriana deseja interagir com outras pessoas sobre a cena. Diego, turista, está em busca de se manter informado sobre os eventos em Belo Horizonte, já que irá passar uma semana de férias na cidade.
 
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+
 
 ## Requisitos
 
