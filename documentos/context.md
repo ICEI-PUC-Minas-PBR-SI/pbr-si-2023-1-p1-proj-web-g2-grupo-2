@@ -1,9 +1,9 @@
 # Introdução
 
-  Foi identificado que há uma carência nas redes sociais de espaços destinados exclusivamente ao mercado musical, tanto voltados para a divulgação quanto para comunicação entre os artistas. Então, a publicidade de shows e eventos musicais se torna dispersa em meio as outras tantas informações nas redes, tendo como intuito de aglutinar essas informações. Além disso, criar um espaço para aqueles que buscam bandas para se integrarem e trocarem experiências. 
+  Foi identificado que há uma carência nas redes sociais de espaços destinados exclusivamente ao mercado musical, tanto voltado para a divulgação quanto para comunicação entre os artistas. Então, a publicidade de shows e eventos musicais se torna dispersa em meio as outras tantas informações nas redes, tendo como intuito de aglutinar essas informações. Além disso, criar um espaço para aqueles que buscam bandas para se integrarem e trocarem experiências. 
 
 ## Problema
-  A aplicação tem como intuito: Ajudar pessoas que buscam iniciar no mundo musical; Ajudar na divulgação de seus trabalhos e projetos nesse nicho; Impulsionar o turismo na cidade de Belo Horizonte;
+  A aplicação tem como intuito: ajudar pessoas que buscam iniciar no mundo musical; Ajudar na divulgação de seus trabalhos e projetos nesse nicho; Impulsionar o turismo na cidade de Belo Horizonte;
 
 
 
