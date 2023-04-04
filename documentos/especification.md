@@ -49,13 +49,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário se cadastre  | ALTA | BAIXA |
-|RF-002| Emitir um relatório de atualizações semanais   | ALTA | ALTA |
-|RF-003| Permitir publicações de arquivos de mídia   | ALTA | MÉDIA |
-|RF-004| Permitir personalização de perfil   | ALTA |  ALTA |
-|RF-005| Notificar o usuário  | ALTA | MÉDIA|
-|RF-006| Publicação de posts  | ALTA | MÉDIA|
-|RF-007| personalização de posts  | ALTA | MÉDIA|
+|RF-001| Permitir que o usuário se cadastre  | ALTA | Gabriel Fernandes |
+|RF-002| Emitir um relatório de atualizações semanais   | ALTA | Talmer - Rafael |
+|RF-003| Permitir publicações de arquivos de mídia   | ALTA | Rodrigo |
+|RF-004| Permitir personalização de perfil   | ALTA |  Kayk - Lívia |
+|RF-005| Notificar o usuário  | ALTA | Gabriel Rocha|
+|RF-006| Publicação de posts  | ALTA | Eduardo Gobbi|
+|RF-007| personalização de posts  | ALTA | André|
 
 
 ### Requisitos não Funcionais
