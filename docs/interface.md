@@ -7,7 +7,9 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![ UserFlow](img/userflow/Untitled.png)
+
+Link no Figma para a melhor visualização do Userflow https://www.figma.com/file/WcnSTQn7NxtgeTGVldokgO/Untitled?node-id=0%3A1&t=YFLjFgZMXZGL0FZO-1
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
@@ -19,7 +21,23 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Login](img/wireframes/login.png)
+![registrar](img/wireframes/registrar.png)
+![aba de amigos](img/wireframes/amigos.png)
+![adicionar amigos](img/wireframes/adicionar%20amigos.png)
+![eventos](img/wireframes/eventos.png)
+![inserir projetos](img/wireframes/inserir%20projeto.png)
+![eprfil](img/wireframes/ideia%20perfil%202.png)
+![editar perfil](img/wireframes/editar%20perfil.png)
+![login no celular](img/wireframes/login%20phone.png)
+![registrar no celular](img/wireframes/registrar%20phone.png)
+![amigos no celular](img/wireframes/amigos%20mobile.png)
+![adicinoar projetos no celular](img/wireframes/adicionar%20projeto%20mobile.png)
+![adicionar amigos no celular](img/wireframes/add%20amigos%20mobile.png)
+![editar perfil  no celular](img/wireframes/editar%20perfil%20mobile.png)
+
+
+
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
