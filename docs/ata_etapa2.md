@@ -9,4 +9,4 @@ Kayk Da Silva Souza, ficou responsável por contribuir na produção do template
 
 Rafael Cunha, ficou responsável pela produção do seguinte Wireframe Tela de inserir projetos versão pc.
 
-Rodrigo Fernandes, ficou responsável por ajudar a desenvolver o template em HTML e CSS (versão pc e mobile).
+Rodrigo Fernandes, ficou responsável por ajudar a desenvolver o template em HTML e CSS  (versão pc e mobile).
