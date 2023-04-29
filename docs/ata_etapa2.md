@@ -6,4 +6,4 @@ Gabriel Fernandes, ficou responsável por enviar as Wireframes e Userflow para o
 
 Lívia Helen, ficou responsável pela produção das seguintes Wireframes: Perfil (versão pc e mobile), Editar Perfil (versão pc e mobile) e Tela de inserir projetos (versão mobile).
 
-Rafael Cunha, ficou responsável pela produção do seguinte Wireframe Tela de inserir projetos.
+Rafael Cunha, ficou responsável pela produção do seguinte Wireframe Tela de inserir projetos versão pc.
