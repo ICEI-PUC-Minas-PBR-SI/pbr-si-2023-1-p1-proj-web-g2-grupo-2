@@ -4,3 +4,5 @@ Gabriel Fernandes, ficou responsável por enviar as Wireframes e Userflow para o
 Gabriel Rocha Lopes, ficou responsável por tanto ajudar como produzir o template.html (versão pc e mobile).
 
 Lívia Helen, ficou responsável pela produção das seguintes Wireframes: Perfil (versão pc e mobile), Editar Perfil (versão pc e mobile) e Tela de inserir projetos (versão mobile).
+
+Kayk Da Silva Souza, ficou responsável por contribuir na produção do templete padrão (versão pc e mobile).
