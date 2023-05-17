@@ -10,8 +10,6 @@
 É perceptível que ingressar na carreira musical não é nada fácil, então para facilitar o acesso e o surgimento de novos talentos, a TurtleSpace chega pra somar com uma ideia inovadora. Será desenvolvida então uma rede social voltada a área musical para compartilhamento de músicas, produtos autorais, desenvolvimento social, e novas oportunidades para aqueles que buscam igressar no meio descrito.
 
 ## Integrantes
-* Gabriel Fernandes de Araújo
-* Gabriel Rocha Lopes
 * Kayk da Silva Souza
 * Eduardo Gobbi Gualberto
 * Rodrigo Fernandes Ribeiro Pinto
