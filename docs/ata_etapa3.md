@@ -4,3 +4,5 @@ Kayk Da Silva Souza, ficou responsável por produzir a tela de Registro, Login e
 Rafael Cunha Santos, colaborou na criação da tela de amigos no projeto.
 
 Eduardo Gobbi, ficou responsável pela criação da tela de Amigos no projeto.
+
+Lívia Helen, ficou responsável pela criação da tela de Perfil no projeto.
