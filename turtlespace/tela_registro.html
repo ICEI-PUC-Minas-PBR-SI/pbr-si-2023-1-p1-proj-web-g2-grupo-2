@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script> 
+    <title>Tela de Registro</title>
+
+
+    <style>
+
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        div{
+            background-color: rgba(0 , 0, 0, 0.9);
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: white;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: dodgerblue;
+            border:none;
+            padding: 15px;
+            width: 100%;
+            border-radius:10px;
+            color:white;
+            font-size: 15px;
+            cursor:pointer;
+            margin-top: 10px;
+        }
+        button:hover{
+            background-color: deepskyblue;
+        }
+
+    </style>
+
+<style>
+    body {
+        background-image: url(img/espacoimgg.jpg);
+        background-size: cover;
+    }
+</style>
+
+</head>
+<body>
+    <form id="registrationForm" onsubmit="registerUser(event)">
+        <div class="tela-login">
+          <h1>TurtleSpace</h1>
+          <input type="text" placeholder="Usuário" id="username" name="username" required>
+          <br><br>
+          <input type="text" placeholder="E-mail" id="email" name="email" required>
+          <br><br>
+          <input type="password" placeholder="Senha" id="password" name="password" required>
+          <br><br>
+          <input type="password" placeholder="Confirmar Senha" id="confirmPassword" name="confirmPassword" required>
+          <br><br>
+          <button type="submit">Registrar</button>
+          <button onclick="window.location.href='tela_de_login.html'">Login</button>
+        </div>
+      </form>
+</body>
+</html>
