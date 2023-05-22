@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Icones -->
+  <link href="fontawesome/fontawesome-free-6.4.0-web/css/all.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-dark">
+
+  <!-- Cabeçalho -->
+  <header>
+    <div>
+      <img src="img/icons8-turtle-64 (1).png"
+        class="logo float-start mt-3 mx-4 d-md-none d-lg-block d-none d-md-block d-lg-block">
+    </div>
+    <nav class="navbar position-absolute top-0 start-50 translate-middle mt-5 d-none d-md-block d-lg-block d-sm-block">
+      <div class="container-fluid">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+    </nav>
+    <nav class="caixa-menuprincipal position-absolute top-0 end-0 mt-4 text-light d-none d-sm-block">
+      <ul>
+        <img src="img/icons8-turtle-64 (2).png" class="">
+        <li><a href="...">Seja bem vindo!</a></li>
+      </ul>
+    </nav>
+
+    <!-- Cabeçalho (Mobile) -->
+    <nav class="navbar navbar-dark bg-primary fixed-top d-block d-sm-block d-md-none d-sm-none d-md-block block">
+      <div class="container-fluid">
+        <img src="img/icons8-turtle-64 (1).png" class="logows d-block d-sm-block d-md-none d-sm-none d-md-block block">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Turtle Space</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-users"></i> Amigos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i> Notificações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-calendar-days"></i> Eventos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Conteúdo do site -->
+  <main>
+    <div>
+
+      <style>
+        body {
+            padding: 0;
+            background-image: url(img/espacoimgg.jpg);
+            background-repeat: repeat;
+            width: 100%;
+            height: 100%;
+            background-size: auto;
+        }
+        .perfil{
+            background-color: rgba(0 , 0, 0, 0.9);
+            display: inline-block;
+            position:absolute;
+            width: 900px;
+            margin-left: 200px;
+            padding: 10px;
+            height: 100%;
+        }
+        .conteudo{
+            background-color: white;
+            display: inline-block;
+            width: 850px;
+            margin-left: 250px;
+            padding: 10px;
+            height: 100%;
+        }
+        #capa{
+            width: 830px;
+            height: 150px;
+        }
+
+        #fotoperf{
+            width: 130px;
+            border-radius: 80%;
+            position: absolute;
+            left: 270px;
+            top: 110px; 
+            margin-left: -250px;
+        }
+        main {
+        height: 80vh;
+        }
+
+        footer {
+        width: 100%;
+        color: var(--color-neutral-40);
+        }
+
+        #footer_copyright {
+        display: flex;
+        justify-content: center;
+        background-color: var(--color-neutral-0);
+        font-size: 0.9rem;
+        padding: 1.5rem;
+        font-weight: 100;
+}
+
+.perfil h3{
+  padding-top: 20px;;
+  padding-left: 160px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.perfil h5{
+  padding-left: 160px;
+  font-size: 85%;
+  color: rgb(255, 255, 255);
+}
+
+.dados{
+  padding-left: 30px;
+  top: 100px;
+  
+}
+
+.dados h4 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.dados p{
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.edit{
+  display: flex;
+  top: 0;
+  position: absolute;
+  top: 370px;
+  left: 570px;
+  border: 10px;
+  border-radius: 5%;
+  padding: 5px;
+  background-color: #ffffff
+}
+
+.proj{
+  background-color: rgb(255, 255, 255);
+  width: 10px;
+  padding-left: 20px;
+  margin-left: 200px;
+}
+
+.videos{
+  background-color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+}
+
+#fotoperf2{
+  width: 50px;
+  border-radius: 80%;
+  padding-bottom: 10px;
+}
+
+.user{
+  display: inline;
+  padding-left: 5px;
+  font-size: 12px;
+}
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+    margin-top: 300px;
+}
+      </style>
+
+
+      <h1 class="bg-primary text-light p-4 mb-0 d-none d-sm-block">
+        <p class="mt-2 fs-2 text-uppercase fw-bold">Turtle Space</p>
+      </h1>
+      <nav class="caixa-menuprincipal bg-primary mt-2 mx-4 text-light d-none d-sm-block">
+        <ul class="text-center">
+          <i class="fa-solid fa-house"></i>
+          <li><a href="home.html">Home</a></li>
+          <i class="fa-solid fa-user"></i>
+          <li><a href="perfil.html">Perfil</a></li>
+          <i class="fa-solid fa-users"></i>
+          <li><a href="amigos.html">Amigos</a></li>
+          <i class="fa-solid fa-bell"></i>
+          <li><a href="inserir_projeto.html">Adicionar</a></li>
+          <i class="fa-solid fa-calendar-days"></i>
+          <li><a href="eventos.html">Eventos</a></li>
+        </ul>
+      </nav>
+
+      <div class="perfil">
+        <img src="img/capa.jpg" id="capa" alt="capa">
+        <img src="img/perfil.jpg" id="fotoperf" alt="fotoperfil">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="dados">
+          <h4>@Livs</h4>
+          <p></p>
+          <h4>Contatos:</h4>
+          <h4>31-999649609</h4>
+          <h4>livia@gmail.com</h4>
+          <h4>Descrição:</h4>
+          <h4>Sou uma apaixonada por música, canto, toco ukulele, e arrisco compor as vezes!
+            É uma terapia expressar meus sentimentos através da voz.</h4>
+            <h4>
+              Busco aperfeiçoar minhas habilidades musicais. Também busco conectar-se com outros músicos e colaborar com outros artistas para expandir minhass experiências musicais. Além de que quero ganhar visibilidade como artista: sonho em compartilhar minhas composições com um público maior e ser reconhecida pelas habilidades musicais.
+            </h4>
+          <p></p>
+
+  
+<!-- Rodapé -->
+<footer class="bg-primary">
+  <div id="footer_copyright">
+     &#169
+     Copyright 2023 direitos reservados a turtlespace.com
+  </div>
+</footer>
+</body>
+</html>
+</main>
+</body>
+</html>
