@@ -83,8 +83,13 @@
 
       <style>
         body {
+            margin: 0;
+            padding: 0;
             background-image: url(img/espacoimgg.jpg);
-            background-size: cover;
+            background-repeat: repeat;
+            width: 100%;
+            height: 100%;
+            background-size: auto;
         }
         .feed-box {
             width: 600px;
@@ -114,63 +119,70 @@
 
     </style>
 
-      <h1 class="bg-primary text-light p-4 mb-0 d-none d-sm-block">
-        <p class="mt-2 fs-2 text-uppercase fw-bold">Turtle Space</p>
-      </h1>
-      <nav class="caixa-menuprincipal bg-primary mt-2 mx-4 text-light d-none d-sm-block">
-        <ul class="text-center">
-        <i class="fa-solid fa-house"></i><li><a href="home.html">Home</a></li> 
-        <i class="fa-solid fa-user"></i><li><a href="perfil.html">Perfil</a></li> 
-        <i class="fa-solid fa-users"></i><li><a href="amigos.html">Amigos</a></li> 
-        <i class="fa-solid fa-file-arrow-down"></i><li><a href="inserir_projeto.html">Adicionar</a></li> 
-        <i class="fa-solid fa-calendar-days"></i><li><a href="eventos.html">Eventos</a></li>
-        </ul>
-      </nav>
-      <nav>
-          <head>
-            <link rel="stylesheet" type="text/css" href="styles.css">
-          </head>
-          <body>
-            <div class="feed-box">
-              <span class="verified">@mineirao<i class="fas fa-check"></i></span>
-              <p>Quem aí está animado para o Planeta Brasil de domingo???</p>
-              <p>Últimos ingressos disponíveis no site www.planetabrasil.com</p>
-              
-            </div>
-            <div class="feed-box">
-              <span class="verified">@esbetos<i class="fas fa-check"></i></span>
-              <p>Venha assistir Cruzeiro x Flamengo</p>
-              <p>Dois chopps por 10R$!!!</p>
-              <p></p>
-              <p>*promoção válida a partir de 14:00</p>
+<h1 class="bg-primary text-light p-4 mb-0 d-none d-sm-block">
+  <p class="mt-2 fs-2 text-uppercase fw-bold">Turtle Space</p>
+</h1>
 
-            </div>
-            <div class="feed-box">
-              <span class="verified">@chalezinho<i class="fas fa-check"></i></span>
-              <p>É HOJE!</p>
-              <p>Colecionando vários hits ao longo dos anos, Mc TH está de volta na casinha, para te fazer perder o juízo.<p>
-            </div>
+<nav class="caixa-menuprincipal bg-primary mt-2 mx-4 text-light d-none d-sm-block">
+  <ul class="text-center">
+    <i class="fa-solid fa-house"></i><li><a href="home.html">Home</a></li> 
+    <i class="fa-solid fa-user"></i><li><a href="perfil.html">Perfil</a></li> 
+    <i class="fa-solid fa-users"></i><li><a href="amigos.html">Amigos</a></li> 
+    <i class="fa-solid fa-file-arrow-down"></i><li><a href="inserir_projeto.html">Adicionar</a></li> 
+    <i class="fa-solid fa-calendar-days"></i><li><a href="eventos.html">Eventos</a></li>
+  </ul>
+</nav>
 
-            <div class="feed-box">
-              <span class="verified">@jorge&mateus<i class="fas fa-check"></i></span>
-                <p>A venda de ingressos para o nosso festival abre dia 18/05.</p>
-                <p>Venha fazer parte da nossa história!</p>
-                <p></p>
-                <p>*promoção válida a partir de 14:00</p>
-            </div>
+<div class="imagem">
+  <a href="https://www.festivalplanetabrasil.com.br/">
+    <img src="img/planeta_brasil.jpg" class="img-medium">
+  </a>
+</div>
 
-            
-          </body>
-      
-  <!-- Rodapé -->
-  <footer class="bg-primary">
-    <div id="footer_copyright">
-       &#169
-       Copyright 2023 direitos reservados a turtlespace.com
-    </div>
- </footer>
- </body>
-</html>
-</main>
-</body>
-</html>
+<div class="imagem">
+  <a href="https://brasil.tomorrowland.com/en/festival/">
+    <img src="img/Tomorrowland-retorna-ao-Brasil-em-2023.jpg" class="img-medium">
+  </a>
+</div>
+<div class="imagem">
+  <a href="https://www.lollapaloozabr.com/">
+    <img src="img/lollapalooza_brasil_2023_tem_datas_definidas.jpg" class="img-medium">
+  </a>
+</div>
+
+
+<div class="imagem">
+  <a href="https://rockinrio.com/rio/pt-br/home/">
+    <img src="img/rock_in_rio.jpg" class="img-medium">
+  </a>
+</div>
+
+
+<style>
+  .imagem {
+    display: flex;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: 61vh; /* Definindo a altura como 100% da altura da janela de visualização */
+    width: 50%; /* Definindo uma largura fixa */
+    margin-bottom: 15px; /* Adicionando espaço entre as imagens */
+  }
+
+  .imagem img.img-medium {
+    max-width: 100%; /* A largura máxima será ajustada para preencher o contêiner */
+    max-height: 100%; /* A altura máxima será ajustada para preencher o contêiner */
+    object-fit: contain; /* A imagem será dimensionada proporcionalmente para caber dentro do contêiner */
+  }
+</style>
+
+
+
+<footer class="bg-primary">
+  <div id="footer_copyright">
+    &#169; Copyright 2023 direitos reservados a turtlespace.com
+  </div>
+</footer>
