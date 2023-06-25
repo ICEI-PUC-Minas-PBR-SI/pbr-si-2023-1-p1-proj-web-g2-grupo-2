@@ -42,18 +42,17 @@ function loginUser(event) {
   document.getElementById("loginForm").reset();
 }
 
-window.addEventListener('DOMContentLoaded', function() {
-  var tweetInput = document.getElementById('tweetInput');
-  var postButton = document.getElementById('postButton');
-  var tweetFeed = document.getElementById('tweetFeed');
+document.getElementById('tweetForm').addEventListener('submit', function(event) {
+  event.preventDefault();
 
-  postButton.addEventListener('click', function() {
-    var tweetText = tweetInput.value;
-    if (tweetText.trim() !== '') {
-      var newTweet = document.createElement('div');
-      newTweet.textContent = tweetText;
-      tweetFeed.appendChild(newTweet);
-      tweetInput.value = '';
-    }
-  });
+  var tweetContent = document.getElementById('tweetContent').value;
+
+  if (tweetContent) {
+    var tweet = document.createElement('div');
+    tweet.className = 'tweet';
+    tweet.textContent = tweetContent;
+
+    document.getElementById('tweetDisplay').appendChild(tweet);
+    document.getElementById('tweetContent').value = '';
+  }
 });

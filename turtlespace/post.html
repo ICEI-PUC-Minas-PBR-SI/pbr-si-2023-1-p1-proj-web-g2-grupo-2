@@ -101,18 +101,29 @@
         </ul>
       </nav>
       <nav>
+        
         <div class="letra">
            </div>
-        <div class="container">
-            <textarea id="tweetInput" rows="4" placeholder="Digite o seu tweet"></textarea>
-            <button id="postButton">Postar</button>
-            <div id="tweetFeed">
-              <!-- Aqui serão exibidos os tweets postados -->
-            </div>
-            
-          </div>
-          
-          <script src="script.js"></script>
+           <!DOCTYPE html>
+           <html>
+           <head>
+             <title>Tela de Postagem de Tweets</title>
+             <link rel="stylesheet" type="text/css" href="style.css">
+           </head>
+           <body>
+             <div class="container">
+               <h2>Post</h2>
+               <form id="tweetForm">
+                 <textarea id="tweetContent" placeholder="Digite o seu tweet..." maxlength="280"></textarea>
+                 <button type="submit">Postar</button>
+               </form>
+               <div id="tweetDisplay"></div>
+             </div>
+           
+             <script src="script.js"></script>
+           </body>
+           </html>
+           
       </nav>
       
   <!-- Rodapé -->
