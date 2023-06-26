@@ -14,9 +14,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    
+   
 
 </head>
 <body class="bg-dark">
+
 
   <!-- Cabeçalho -->
   <header>
@@ -25,12 +28,13 @@
       </div>
       <nav class="navbar position-absolute top-0 start-50 translate-middle mt-5 d-none d-md-block d-lg-block d-sm-block">
         <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> 
-          </form>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> 
+            </form>
         </div>
-      </nav>
+    </nav>
+    
       <nav class="caixa-menuprincipal position-absolute top-0 end-0 mt-4 text-light d-none d-sm-block">
         <ul>
          <img src="icons8-turtle-64 (2).png" class=""><li><a href="...">Seja bem vindo!</a></li> 
@@ -92,6 +96,7 @@
             height: 100%;
             background-size: auto;
         }
+
 
         /* Cabeçalho */
 .caixa-menuprincipal {
@@ -289,54 +294,192 @@ footer {
         <i class="fa-solid fa-calendar-days"></i><li><a href="eventos.html">Eventos</a></li>
         </ul>
       </nav>
-      
-      <nav>
-        <ul class="item">
-          <li>AMIGOS</li>
-          <li>@rodrigo_yw</li>
-          <li>@faell1x</li>
-          <li>@kaykzzz_</li>
-          <li>@o.gobbi</li>
-        </ul>
-      </nav>
-      
-        <form action="/caminho/do-processamento" method="GET" class="search-form">
-          <input type="text" name="pesquisa" placeholder="Digite sua pesquisa" class="search-input">
-          <button type="submit" class="search-button">Buscar</button>
-        </form>        
-      </nav>
+            <!-- Your remaining content here -->
 
-      <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-      </head>
-      <body>
-        <div class="feed-box">
-          <span class=>@rodrigo_yw<i class=></i></span>
-          <p>Não vejo a hora de chegar o American Night!</p>
-          <p>Quem tem medo pula fora</p>
 
-        </div>
-        <div class="feed-box">
-          <span class=>@o.gobbi<i class=></i></span>
-            <p>SAIUUUUUU!</p>
-            <p>"Além" está disponível em todas as plataformas digitais!</p>
-            <p>Para escutar apenas clique no link abaixo:</p>
-            <a href="https://www.youtube.com/watch?v=g3cCqcCyIMQ" target="_blank">https://www.youtube.com/watch?v=g3cCqcCyIMQ</a>
-        </div>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #content {
+      display: flex;
+      justify-content: space-between;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    #posts {
+      flex: 2;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    #friends {
+      flex: 1;
+      background-color: #007bff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+    }
+
+    .post {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .post h3 {
+      color: #333;
+      margin-top: 0;
+    }
+
+    .post p {
+      color: #666;
+    }
+
+    .post .author {
+      color: #999;
+      font-style: italic;
+    }
+
+    .post .date {
+      color: #999;
+      font-size: 12px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    #details {
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: none;
+    }
+
+    #details img {
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    #details h2 {
+      color: #333;
+      margin-top: 0;
+    }
+
+    #details p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="content">
+    <div id="posts">
+      <div class="post">
+        <h3>American Night</h3>
+        <p>Não vejo a hora de chegar o American Night!
+
+          Quem tem medo pula fora </p>
+        <p class="author">Postado por: @rodrigo_yw</p>
+        <p class="date">Data: 24 de Junho, 2023</p>
+      </div>
+
+      <div class="post">
+        <h3>Procuro banda!</h3>
+        <p>Alguma banda precisando de alguém que toque violão?
+
+          Caso precise, me chama nesse número (31)989578278 </p>
+        <p class="author">Postado por: @kaykzzz_</p>
+        <p class="date">Data: 25 de Junho, 2023</p>
+      </div>
+
+      <div class="post">
+        <h3>Confusão no RapGame</h3>
+        <p>Chateado pelo ocorrido no Rap Game
+
+          Direção péssima!
+          
+          Espero que melhorem... </p>
+        <p class="author">Postado por: @faell1x</p>
+        <p class="date">Data: 26 de Junho, 2023</p>
+      </div>
+    </div>
+
+    <div id="friends">
+      <h3>Amigos</h3>
+      <ul>
+        <li onclick="showDetails('@rodrigo_yw')">@rodrigo_yw</li>
+        <li onclick="showDetails('@kaykzzz_')">@kaykzzz_</li>
+        <li onclick="showDetails('Pedro')">@faell1x</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="details">
+    <img id="friend-profile-pic" src="" alt="Foto de Perfil">
+    <h2 id="friend-name"></h2>
+    <div id="friend-post"></div>
+  </div>
+
+  <script>
+    function showDetails(name) {
+      var friendProfilePic = document.getElementById('friend-profile-pic');
+      var friendName = document.getElementById('friend-name');
+      var friendPost = document.getElementById('friend-post');
+      var posts = document.getElementById('posts');
+
+      // Esconder todos os posts
+      posts.style.display = 'none';
+
+      // Atualizar os detalhes do amigo com base no nome do amigo clicado
+      if (name === '@rodrigo_yw') {
+        friendProfilePic.src = 'perfil.jpg';
+        friendName.textContent = '@rodrigo_yw';
+        friendPost.innerHTML = '<div class="post"><h3>American Night</h3><p>Não vejo a hora de chegar o American Night! Quem tem medo pula fora </p><p class="author">Postado por: @rodrigo_yw </p><p class="date">Data: 23 de Junho, 2023</p></div>';
         
-        </div>
-        <div class="feed-box">
-          <span class=>@kaykzzz_<i class=></i></span>
-          <p>Alguma banda precisando de alguém que toque violão?</p>
-          <p>Caso precise, me chama nesse número (31)989578278<p>
-        </div>
+      } else if (name === '@kaykzzz_') {
+        friendProfilePic.src = 'perfil.jpg';
+        friendName.textContent = '@kaykzzz_';
+        friendPost.innerHTML = '<div class="post"><h3>Procuro banda!</h3><p>Alguma banda precisando de alguém que toque violão?Caso precise, me chama nesse número (31)989578278</p><p class="author">Postado por: @kaykzzz_</p><p class="date">Data: 25 de Junho, 2023</p></div>';
+      } else if (name === '@faell1x') {
+        friendProfilePic.src = 'perfil.jpg';
+        friendName.textContent = '@faell1x';
+        friendPost.innerHTML = '<div class="post"> <h3>Confusão no RapGame</h3><p>Chateado pelo ocorrido no Rap GameDireção péssima!Espero que melhorem... </p><p class="author">Postado por: @faell1x</p><p class="date">Data: 26 de Junho, 2023</p></div>';
+      }
+  
 
-        <div class="feed-box">
-          <span class=>@faell1x<i class=></i></span>
-          <p>Chateado pelo ocorrido no Rap Game</p>
-          <p>Direção péssima!</p>
-          <p>Espero que melhorem...</p>
-        </div>
+      // Exibir a página de detalhes
+      document.getElementById('details').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+     
+
       
   <!-- Rodapé -->
   <footer class="bg-primary">
@@ -349,4 +492,5 @@ footer {
 </html>
 </main>
 </body>
-</html>
+</html
+
