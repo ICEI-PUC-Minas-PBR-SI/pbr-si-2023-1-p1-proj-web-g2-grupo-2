@@ -77,11 +77,15 @@
   border-radius: 5px;
   padding: 5px;
   position: relative;
-  left: 15px;
+  left: 560px;
   top: 10px;
 }
 
-
+.editar-dados{
+    position: relative;
+    top: 30px;
+    padding-bottom: 50px;
+}
 
 .editar-dados input[type="text"],
 .editar-dados textarea {
