@@ -180,15 +180,21 @@
     <a href="#">Salvar</a>
     <div class="editar-dados">
       <h4>Usuário:</h4>
-      <input type="text" placeholder="Turtle_2023">
-      <h4>E-mail:</h4>
-      <input type="text" placeholder="Turtle2023@email.com">
+      <input type="text" placeholder="Turtle_2023" required>
+      <h4 id="em">E-mail:</h4>
+      <input type="text" placeholder="Turtle2023@email.com" required>
+      <p>*Essa informação não é visível para outros usuários.</p>
       <h4>Nascimento:</h4>
-      <input type="text" placeholder="00/00/0000">
-      <h4>Descrição:</h4>
-      <textarea rows="4" cols="50"placeholder="Escreva um pequeno resumo sobre você e seus gostos!"></textarea>
+      <input type="date" required>
+      <p>*Essa informação não é visível para outros usuários.</p>
+      <h4 id="des">Descrição:</h4>
+      <textarea rows="4" cols="50" placeholder="Escreva um pequeno resumo sobre você e seus gostos!" required></textarea>
       <h4>Contato:</h4>
-      <input type="text"placeholder="(12) 34567-8910">
+      <div class="phone-input">
+      <input type="text" id="ddd" maxlength="2" placeholder="DDD" required>
+      <input type="text" id="telefone" maxlength="9" placeholder="Telefone" required>
+      </div>
+      <p>*Essa informação não é visível para outros usuários.</p>
     </div>
       
   <!-- Rodapé -->
