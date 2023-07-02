@@ -95,4 +95,6 @@ function validated(element){
     counter.style.color = "#333";
   }
   readonlyInput.innerHTML = text; //replacing innerHTML of readonly div with textTag value
+
+  
 }

@@ -32,12 +32,28 @@
       </ul>
       <div class="content">
         <span class="counter">100</span>
-        <button>Postar</button>
+        <button onclick="postar()">Postar</button>
       </div>
     </div>
   </div>
 
   <script src="script.js"></script>
+  <script>
+    // Função para postar o tweet
+    function postar() {
+      var tweet = document.querySelector('.input.editable').innerText;
+      localStorage.setItem('tweet', tweet);
+      
+    }
+
+    // Carregar o tweet armazenado no Local Storage
+    window.onload = function() {
+      var tweet = localStorage.getItem('tweet');
+      if (tweet) {
+        document.querySelector('.input.editable').innerText = tweet;
+      }
+    };
+  </script>
 
 </body>
 </html>
