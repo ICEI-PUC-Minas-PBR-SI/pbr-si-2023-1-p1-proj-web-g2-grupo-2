@@ -54,6 +54,9 @@ function postar() {
           
           // Adiciona o novo tweet com o nome do usuário à lista
           tweets.push(username + ': ' + tweet);
+
+          alert("Post enviado com sucesso!");
+
           
           // Armazena a lista atualizada no Local Storage
           localStorage.setItem('tweets', JSON.stringify(tweets));
