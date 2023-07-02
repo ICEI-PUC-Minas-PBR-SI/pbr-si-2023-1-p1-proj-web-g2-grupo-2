@@ -151,40 +151,58 @@
       <nav>
         <div class="container">
           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner" style="height: 30em;">
-                  <a href="https://www.festivalplanetabrasil.com.br/" class="carousel-item h-100 active" style="background-image: url(img/planeta_brasil.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;"></a>
-                  <a href="https://rockinrio.com/rio/pt-br/home/" class="carousel-item h-100" style="background-image: url(img/rock_in_rio.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;"></a>
-                  <a href="https://brasil.tomorrowland.com/en/festival/" class="carousel-item h-100" style="background-image: url(img/Tomorrowland-retorna-ao-Brasil-em-2023.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;"></a>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-              </button>
+            <div class="carousel-inner" style="height: 30em;">
+              <a href="https://www.festivalplanetabrasil.com.br/" class="carousel-item h-100 active" style="background-image: url(img/planeta_brasil.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;" target="_blank"></a>
+              <a href="https://rockinrio.com/rio/pt-br/home/" class="carousel-item h-100" style="background-image: url(img/rock_in_rio.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;" target="_blank"></a>
+              <a href="https://brasil.tomorrowland.com/en/festival/" class="carousel-item h-100" style="background-image: url(img/Tomorrowland-retorna-ao-Brasil-em-2023.jpg);background-size: contain;background-repeat: no-repeat;background-position: center;" target="_blank"></a>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-      </div>
+        </div>
       
           <head>
-            <link rel="stylesheet" type="text/css" href="styles.css">
+            <link rel="stylesheet" type="text/css" href="stylehome.css">
           </head>
-          <body>  
-            <div class="feed-box">
-              <span class="verified">@mineirao<i class="fas fa-check"></i></span>
-              <p>Quem aí está animado para o Planeta Brasil de domingo???</p>
-              <p>Últimos ingressos disponíveis no site www.planetabrasil.com</p>
+          <body>
           </nav>
-
           <div class="feed-box">
             <head>
-              <link rel="stylesheet" type="text/css" href="styles.css">
+              <link rel="stylesheet" type="text/css" href="stylehome.css">
             </body>
             </html>
-            <span class="verified">@chalezinho<i class="fas fa-check"></i></span>
-            <p>É HOJE!</p>
-            <p>Colecionando vários hits ao longo dos anos, Mc TH está de volta na casinha, para te fazer perder o juízo.<p>
+
+            <script>
+              // Função para carregar os tweets na classe feed-box
+              function carregarTweets() {
+                // Verifica se existem tweets armazenados no Local Storage
+                if (localStorage.getItem('tweets')) {
+                  var tweets = JSON.parse(localStorage.getItem('tweets'));
+                  var feedBox = document.querySelector('.feed-box');
+                  
+                  // Limpa o conteúdo existente na feed-box
+                  feedBox.innerHTML = '';
+                  
+                  // Cria um novo elemento <p> para cada tweet e adiciona-o à feed-box
+                  for (var i = 0; i < tweets.length; i++) {
+                    var tweet = tweets[i];
+                    var tweetElement = document.createElement('p');
+                    tweetElement.innerText = tweet;
+                    feedBox.appendChild(tweetElement);
+                  }
+                }
+              }
+
+              // Chama a função para carregar os tweets ao carregar a página
+              window.onload = carregarTweets;
+
+            </script>
           </div>
       
   <!-- Rodapé -->

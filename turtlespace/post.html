@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Twitter Tweet Box UI Design | CodingNepal</title>
+  <title>Post</title>
   <link rel="stylesheet" href="stylepost.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -32,12 +32,31 @@
       </ul>
       <div class="content">
         <span class="counter">100</span>
-        <button>Postar</button>
+        <button onclick="postar()">Postar</button>
       </div>
     </div>
   </div>
 
   <script src="script.js"></script>
+  <script>
+    // Função para postar o tweet
+        function postar() {
+          var tweet = document.querySelector('.input.editable').innerText;
+          var tweets = [];
+          
+          // Verifica se já existem tweets armazenados no Local Storage
+          if (localStorage.getItem('tweets')) {
+            tweets = JSON.parse(localStorage.getItem('tweets'));
+          }
+          
+          // Adiciona o novo tweet à lista
+          tweets.push(tweet);
+          
+          // Armazena a lista atualizada no Local Storage
+          localStorage.setItem('tweets', JSON.stringify(tweets));
+        }
+
+  </script>
 
 </body>
 </html>
