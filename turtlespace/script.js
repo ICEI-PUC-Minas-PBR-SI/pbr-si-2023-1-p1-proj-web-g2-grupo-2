@@ -107,6 +107,9 @@ function validated(element){
           if (localStorage.getItem('tweets')) {
             tweets = JSON.parse(localStorage.getItem('tweets'));
           }
+
+
+
           
           // Adiciona o novo tweet à lista
           tweets.push(tweet);
