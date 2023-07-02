@@ -39,8 +39,8 @@
 
   <script src="script.js"></script>
   <script>
-    // Função para postar o tweet
-        function postar() {
+   // Função para postar o tweet
+function postar() {
           var tweet = document.querySelector('.input.editable').innerText;
           var tweets = [];
           
@@ -49,12 +49,16 @@
             tweets = JSON.parse(localStorage.getItem('tweets'));
           }
           
-          // Adiciona o novo tweet à lista
-          tweets.push(tweet);
+          // Obtém o nome do usuário armazenado no Local Storage
+          var username = localStorage.getItem('username');
+          
+          // Adiciona o novo tweet com o nome do usuário à lista
+          tweets.push(username + ': ' + tweet);
           
           // Armazena a lista atualizada no Local Storage
           localStorage.setItem('tweets', JSON.stringify(tweets));
         }
+
 
   </script>
 
