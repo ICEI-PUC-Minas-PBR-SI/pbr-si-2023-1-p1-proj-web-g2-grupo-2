@@ -178,9 +178,31 @@
             </body>
             </html>
 
-            
-         
-            <script src="script.js"></script>
+            <script>
+              // Função para carregar os tweets na classe feed-box
+              function carregarTweets() {
+                // Verifica se existem tweets armazenados no Local Storage
+                if (localStorage.getItem('tweets')) {
+                  var tweets = JSON.parse(localStorage.getItem('tweets'));
+                  var feedBox = document.querySelector('.feed-box');
+                  
+                  // Limpa o conteúdo existente na feed-box
+                  feedBox.innerHTML = '';
+                  
+                  // Cria um novo elemento <p> para cada tweet e adiciona-o à feed-box
+                  for (var i = 0; i < tweets.length; i++) {
+                    var tweet = tweets[i];
+                    var tweetElement = document.createElement('p');
+                    tweetElement.innerText = tweet;
+                    feedBox.appendChild(tweetElement);
+                  }
+                }
+              }
+
+              // Chama a função para carregar os tweets ao carregar a página
+              window.onload = carregarTweets;
+
+            </script>
           </div>
       
   <!-- Rodapé -->

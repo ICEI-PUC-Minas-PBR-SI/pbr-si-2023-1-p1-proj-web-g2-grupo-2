@@ -40,19 +40,22 @@
   <script src="script.js"></script>
   <script>
     // Função para postar o tweet
-    function postar() {
-      var tweet = document.querySelector('.input.editable').innerText;
-      localStorage.setItem('tweet', tweet);
-      
-    }
+        function postar() {
+          var tweet = document.querySelector('.input.editable').innerText;
+          var tweets = [];
+          
+          // Verifica se já existem tweets armazenados no Local Storage
+          if (localStorage.getItem('tweets')) {
+            tweets = JSON.parse(localStorage.getItem('tweets'));
+          }
+          
+          // Adiciona o novo tweet à lista
+          tweets.push(tweet);
+          
+          // Armazena a lista atualizada no Local Storage
+          localStorage.setItem('tweets', JSON.stringify(tweets));
+        }
 
-    // Carregar o tweet armazenado no Local Storage
-    window.onload = function() {
-      var tweet = localStorage.getItem('tweet');
-      if (tweet) {
-        document.querySelector('.input.editable').innerText = tweet;
-      }
-    };
   </script>
 
 </body>
