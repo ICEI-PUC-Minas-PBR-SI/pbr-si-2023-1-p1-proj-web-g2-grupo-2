@@ -177,14 +177,14 @@
       </script>
        <!-- POP-UP/FIM -->
 
-    <a href="#">Salvar</a>
+    <a href="javascript:void(0)" onclick="salvarPerfil()">Salvar</a>
     <div class="editar-dados">
       <h4>Usuário:</h4>
       <input type="text" placeholder="Turtle_2023" required>
       <h4 id="em">E-mail:</h4>
       <input type="text" placeholder="Turtle2023@email.com" required>
       <p>*Essa informação não é visível para outros usuários.</p>
-      <h4>Nascimento:</h4>
+      <h4>Nascimento:</h4> 
       <input type="date" required>
       <p>*Essa informação não é visível para outros usuários.</p>
       <h4 id="des">Descrição:</h4>
@@ -197,6 +197,29 @@
       <p>*Essa informação não é visível para outros usuários.</p>
     </div>
       
+    <script>
+     
+      function salvarPerfil() {
+    var usuario = document.getElementById('usuario').value;
+    var email = document.getElementById('email').value;
+    var nascimento = document.getElementById('nascimento').value;
+    var descricao = document.getElementById('descricao').value;
+    var ddd = document.getElementById('ddd').value;
+    var telefone = document.getElementById('telefone').value;
+
+     var perfil = {
+      usuario: usuario,
+      email: email,
+      nascimento: nascimento,
+      descricao: descricao,
+      ddd: ddd,
+      telefone: telefone
+    };
+
+    console.log(perfil);
+  }
+
+    </script>
   <!-- Rodapé -->
   <footer class="bg-primary">
     <div id="footer_copyright">
