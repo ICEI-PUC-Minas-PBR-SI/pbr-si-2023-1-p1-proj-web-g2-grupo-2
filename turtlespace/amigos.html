@@ -167,9 +167,9 @@ footer {
     justify-content: center;
     background-color: var(--color-neutral-0);
     font-size: 0.9rem;
-    padding: 1.5rem;
+    padding: 60px;
     font-weight: 100;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -296,189 +296,323 @@ footer {
       </nav>
             <!-- Your remaining content here -->
 
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <title>Página de Amigos</title>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+              <style>
+                body {
+                  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                  background-color: #f0f2f5;
+                }
 
-<head>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-    }
-
-    #header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    #content {
-      display: flex;
-      justify-content: space-between;
-      max-width: 800px;
-      margin: 20px auto;
-    }
-
-    #posts {
-      flex: 2;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-    }
-
-    #friends {
-      flex: 1;
-      background-color: #007bff;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 10px;
-    }
-
-    .post {
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .post h3 {
-      color: #333;
-      margin-top: 0;
-    }
-
-    .post p {
-      color: #666;
-    }
-
-    .post .author {
-      color: #999;
-      font-style: italic;
-    }
-
-    .post .date {
-      color: #999;
-      font-size: 12px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 20px;
-      cursor: pointer;
-    }
-
-    #details {
-      max-width: 400px;
-      margin: 20px auto;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      display: none;
-    }
-
-    #details img {
-      max-width: 200px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-    #details h2 {
-      color: #333;
-      margin-top: 0;
-    }
-
-    #details p {
-      color: #666;
-    }
-  </style>
-</head>
-<body>
-
-  <div id="content">
-    <div id="posts">
-      <div class="post">
-        <h3>American Night</h3>
-        <p>Não vejo a hora de chegar o American Night!
-
-          Quem tem medo pula fora </p>
-        <p class="author">Postado por: @rodrigo_yw</p>
-        <p class="date">Data: 24 de Junho, 2023</p>
-      </div>
-
-      <div class="post">
-        <h3>Procuro banda!</h3>
-        <p>Alguma banda precisando de alguém que toque violão?
-
-          Caso precise, me chama nesse número (31)989578278 </p>
-        <p class="author">Postado por: @kaykzzz_</p>
-        <p class="date">Data: 25 de Junho, 2023</p>
-      </div>
-
-      <div class="post">
-        <h3>Confusão no RapGame</h3>
-        <p>Chateado pelo ocorrido no Rap Game
-
-          Direção péssima!
-          
-          Espero que melhorem... </p>
-        <p class="author">Postado por: @faell1x</p>
-        <p class="date">Data: 26 de Junho, 2023</p>
-      </div>
-    </div>
-
-    <div id="friends">
-      <h3>Amigos</h3>
-      <ul>
-        <li onclick="showDetails('@rodrigo_yw')">@rodrigo_yw</li>
-        <li onclick="showDetails('@kaykzzz_')">@kaykzzz_</li>
-        <li onclick="showDetails('Pedro')">@faell1x</li>
-      </ul>
-    </div>
-  </div>
-
-  <div id="details">
-    <img id="friend-profile-pic" src="" alt="Foto de Perfil">
-    <h2 id="friend-name"></h2>
-    <div id="friend-post"></div>
-  </div>
-
-  <script>
-    function showDetails(name) {
-      var friendProfilePic = document.getElementById('friend-profile-pic');
-      var friendName = document.getElementById('friend-name');
-      var friendPost = document.getElementById('friend-post');
-      var posts = document.getElementById('posts');
-
-      // Esconder todos os posts
-      posts.style.display = 'none';
-
-      // Atualizar os detalhes do amigo com base no nome do amigo clicado
-      if (name === '@rodrigo_yw') {
-        friendProfilePic.src = 'perfil.jpg';
-        friendName.textContent = '@rodrigo_yw';
-        friendPost.innerHTML = '<div class="post"><h3>American Night</h3><p>Não vejo a hora de chegar o American Night! Quem tem medo pula fora </p><p class="author">Postado por: @rodrigo_yw </p><p class="date">Data: 23 de Junho, 2023</p></div>';
-        
-      } else if (name === '@kaykzzz_') {
-        friendProfilePic.src = 'perfil.jpg';
-        friendName.textContent = '@kaykzzz_';
-        friendPost.innerHTML = '<div class="post"><h3>Procuro banda!</h3><p>Alguma banda precisando de alguém que toque violão?Caso precise, me chama nesse número (31)989578278</p><p class="author">Postado por: @kaykzzz_</p><p class="date">Data: 25 de Junho, 2023</p></div>';
-      } else if (name === '@faell1x') {
-        friendProfilePic.src = 'perfil.jpg';
-        friendName.textContent = '@faell1x';
-        friendPost.innerHTML = '<div class="post"> <h3>Confusão no RapGame</h3><p>Chateado pelo ocorrido no Rap GameDireção péssima!Espero que melhorem... </p><p class="author">Postado por: @faell1x</p><p class="date">Data: 26 de Junho, 2023</p></div>';
-      }
-  
-
-      // Exibir a página de detalhes
-      document.getElementById('details').style.display = 'block';
-    }
-  </script>
-</body>
-</html>
-     
+                .friend-container {
+                  max-width: 600px;
+                  margin: 0 auto;
+                  padding: 20px;
+                  background-color: #fff;
+                  border: 1px solid #dddfe2;
+                  border-radius: 8px;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+            
+                .friend-container h1 {
+                  font-size: 24px;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                }
+            
+                .friend-form {
+                  display: flex;
+                  margin-bottom: 20px;
+                }
+            
+                .friend-input {
+                  flex-grow: 1;
+                  padding: 8px;
+                  border: 1px solid #dddfe2;
+                  border-radius: 4px;
+                  margin-right: 10px;
+                  font-size: 14px;
+                }
+            
+                .friend-button {
+                  padding: 8px 16px;
+                  border: none;
+                  background-color: #1877f2;
+                  color: #fff;
+                  font-weight: bold;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  font-size: 14px;
+                }
+            
+                .friend-list-container {
+                   position: fixed;
+                   top: 190px;
+                   right: 20px;
+                   max-width: 200px;
+                   padding: 10px;
+                   background-color: #fff;
+                   border: 1px solid #dddfe2;
+                   border-radius: 8px;
+                   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                   margin-top: 0px; 
+                }
+            
+                .friend-list {
+                  list-style-type: none;
+                  padding: 0;
+                  margin-bottom: 20px;
+                }
+            
+                .friend-list li {
+                  display: flex;
+                  align-items: center;
+                  margin-bottom: 5px;
+                  cursor: pointer;
+                  font-size: 16px;
+                  color: #1877f2;
+                }
+            
+                .friend-list li .online-status {
+                  display: inline-block;
+                  width: 8px;
+                  height: 8px;
+                  margin-right: 5px;
+                  border-radius: 50%;
+                }
+            
+                .friend-list li .online-status.online {
+                  background-color: #4caf50;
+                }
+            
+                .friend-list li .online-status.offline {
+                  background-color: #ccc;
+                }
+            
+                .post {
+                  background-color: #f7f7f7;
+                  border: 1px solid #dddfe2;
+                  border-radius: 8px;
+                  padding: 20px;
+                  margin-bottom: 20px;
+                }
+            
+                .post-author {
+                  font-size: 18px;
+                  font-weight: bold;
+                  margin-bottom: 10px;
+                  cursor: pointer;
+                  color: #1877f2;
+                }
+            
+                .post-content {
+                  font-size: 16px;
+                  line-height: 1.5;
+                }
+            
+                .post-actions {
+                  display: flex;
+                  justify-content: space-between;
+                  margin-top: 10px;
+                  font-size: 14px;
+                }
+            
+                .post-action {
+                  display: flex;
+                  align-items: center;
+                  color: #65676b;
+                  cursor: pointer;
+                }
+            
+                .post-action i {
+                  margin-right: 5px;
+                }
+            
+                .post-action:hover {
+                  color: #1877f2;
+                }
+            
+                .liked .post-action i {
+                  color: red;
+                }
+            
+                .comment-form {
+                  display: flex;
+                  align-items: center;
+                  margin-top: 10px;
+                }
+            
+                .comment-input {
+                  flex-grow: 1;
+                  padding: 8px;
+                  border: 1px solid #dddfe2;
+                  border-radius: 4px;
+                  margin-right: 10px;
+                  font-size: 14px;
+                }
+            
+                .comment-button {
+                  padding: 8px 16px;
+                  border: none;
+                  background-color: #1877f2;
+                  color: #fff;
+                  font-weight: bold;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  font-size: 14px;
+                }
+            
+                .comment-list {
+                  list-style-type: none;
+                  padding: 0;
+                  margin-top: 10px;
+                }
+            
+                .comment-list li {
+                  margin-bottom: 5px;
+                  font-size: 14px;
+                }
+            
+                .comment-list li span {
+                  font-weight: bold;
+                  margin-right: 5px;
+                  cursor: pointer;
+                  color: #1877f2;
+                }
+              </style>
+            </head>
+            <body>
+              <div class="friend-container">
+                <h1>TimeLine Posts</h1>
+            
+                <div class="friend-list-container">
+                  <h1>Amigos Online</h1>
+                  <ul class="friend-list" id="friend-list">
+                    <li onclick="window.location.href = 'perfilkayk.html';"><span class="online-status online"></span>@kaykzzz_</li>
+                    <li onclick="window.location.href = 'perfilrafael.html';"><span class="online-status offline"></span>@faell1x</li>
+                    <li onclick="window.location.href = 'perfilrodrigo.html';"><span class="online-status online"></span>@rodrigo_yw</li>
+                  </ul>
+                </div>
+            
+                <div class="post">
+                  <p class="post-author" onclick="window.location.href = 'perfilkayk.html';">@kaykzzz_</p>
+                  <p class="post-content">Alguma banda precisando de alguém que toque violão?Caso precise, me chama nesse número (31)989578278</p>
+            
+                  <div class="post-actions">
+                    <div class="post-action" onclick="likePost(this)">
+                      <i class="far fa-heart"></i>
+                      Curtir
+                    </div>
+                    <div class="post-action" onclick="commentPost(this)">
+                      <i class="far fa-comment"></i>
+                      Comentar
+                    </div>
+                  </div>
+            
+                  <div class="comment-form" style="display: none;">
+                    <input class="comment-input" type="text" placeholder="Digite seu comentário">
+                    <button class="comment-button" onclick="addComment(this)">Comentar</button>
+                  </div>
+            
+                  <ul class="comment-list" style="display: none;"></ul>
+                </div>
+                
+                <div class="post">
+                  <p class="post-author" onclick="window.location.href = 'perfilrafael.html';">@faell1x</p>
+                  <p class="post-content">Chateado pelo ocorrido no Rap GameDireção péssima!Espero que melhorem...</p>
+            
+                  <div class="post-actions">
+                    <div class="post-action" onclick="likePost(this)">
+                      <i class="far fa-heart"></i>
+                      Curtir
+                    </div>
+                    <div class="post-action" onclick="commentPost(this)">
+                      <i class="far fa-comment"></i>
+                      Comentar
+                    </div>
+                  </div>
+            
+                  <div class="comment-form" style="display: none;">
+                    <input class="comment-input" type="text" placeholder="Digite seu comentário">
+                    <button class="comment-button" onclick="addComment(this)">Comentar</button>
+                  </div>
+            
+                  <ul class="comment-list" style="display: none;"></ul>
+                </div>
+            
+                <div class="post">
+                  <p class="post-author" onclick="window.location.href = 'perfilrodrigo.html';">@rodrigo_yw</p>
+                  <p class="post-content">Não vejo a hora de chegar o American Night! Quem tem medo pula fora</p>
+            
+                  <div class="post-actions">
+                    <div class="post-action" onclick="likePost(this)">
+                      <i class="far fa-heart"></i>
+                      Curtir
+                    </div>
+                    <div class="post-action" onclick="commentPost(this)">
+                      <i class="far fa-comment"></i>
+                      Comentar
+                    </div>
+                  </div>
+            
+                  <div class="comment-form" style="display: none;">
+                    <input class="comment-input" type="text" placeholder="Digite seu comentário">
+                    <button class="comment-button" onclick="addComment(this)">Comentar</button>
+                  </div>
+            
+                  <ul class="comment-list" style="display: none;"></ul>
+                </div>
+              </div>
+            
+              <script>
+                function likePost(element) {
+                  element.classList.toggle("liked");
+                  var heartIcon = element.querySelector("i");
+                  if (element.classList.contains("liked")) {
+                    heartIcon.classList.remove("far");
+                    heartIcon.classList.add("fas");
+                  } else {
+                    heartIcon.classList.remove("fas");
+                    heartIcon.classList.add("far");
+                  }
+                }
+            
+                function commentPost(element) {
+                  var commentForm = element.parentElement.parentElement.querySelector(".comment-form");
+                  var commentList = element.parentElement.parentElement.querySelector(".comment-list");
+            
+                  commentForm.style.display = commentForm.style.display === "none" ? "flex" : "none";
+                  commentList.style.display = commentList.style.display === "none" ? "block" : "none";
+                }
+            
+                function addComment(element) {
+                  var commentInput = element.parentElement.querySelector(".comment-input");
+                  var commentList = element.parentElement.parentElement.querySelector(".comment-list");
+            
+                  var commentText = commentInput.value.trim();
+                  if (commentText !== "") {
+                    var commentItem = document.createElement("li");
+                    var commentAuthor = document.createElement("span");
+                    commentAuthor.textContent = "@Livs_04";
+                    commentAuthor.onclick = function () {
+                      window.location.href = 'perfil.html';
+                    };
+                    var commentContent = document.createElement("span");
+                    commentContent.textContent = commentText;
+            
+                    commentItem.appendChild(commentAuthor);
+                    commentItem.appendChild(commentContent);
+                    commentList.appendChild(commentItem);
+            
+                    commentInput.value = "";
+                  }
+                }
+              </script>
+            </body>
+            </html>
 
       
   <!-- Rodapé -->
@@ -492,5 +626,4 @@ footer {
 </html>
 </main>
 </body>
-</html
-
+</html>
