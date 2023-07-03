@@ -96,5 +96,30 @@ function validated(element){
   }
   readonlyInput.innerHTML = text; //replacing innerHTML of readonly div with textTag value
 
-  
+  document.getElementById("registrationForm").addEventListener("submit", registerUser);
+
+          // Função para postar o tweet
+        function postar() {
+          var tweet = document.querySelector('.input.editable').innerText;
+          var tweets = [];
+          
+          // Verifica se já existem tweets armazenados no Local Storage
+          if (localStorage.getItem('tweets')) {
+            tweets = JSON.parse(localStorage.getItem('tweets'));
+          }
+
+
+
+          
+          // Adiciona o novo tweet à lista
+          tweets.push(tweet);
+          
+          // Armazena a lista atualizada no Local Storage
+          localStorage.setItem('tweets', JSON.stringify(tweets));
+          
+
+          
+
+        }
+
 }

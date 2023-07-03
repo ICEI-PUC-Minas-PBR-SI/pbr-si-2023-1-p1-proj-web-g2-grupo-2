@@ -1,0 +1,156 @@
+<<<<<<< HEAD
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Turtle</title>
+        <link href="styleperf.css" rel="stylesheet" type="text/css" />
+
+        <!-- Icones -->
+        <link href="fontawesome/fontawesome-free-6.4.0-web/css/all.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+
+        <style>
+            body {
+                background-image: url(img/espacoimgg.jpg);
+                background-size: cover;
+            }
+        </style>
+    </head>
+
+    <body class="bg-dark">
+
+        <!-- Cabeçalho -->
+        <header>
+            <div>
+                <img src="icons8-turtle-64 (1).png"
+                    class="logo float-start mt-3 mx-4 d-md-none d-lg-block d-none d-md-block d-lg-block">
+            </div>
+            <nav
+                class="navbar position-absolute top-0 start-50 translate-middle mt-5 d-none d-md-block d-lg-block d-sm-block">
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </nav>
+            <nav
+                class="caixa-menuprincipal position-absolute top-0 end-0 mt-4 text-light d-none d-sm-block">
+                <ul>
+                    <img src="icons8-turtle-64 (2).png" class="">
+                    <li><a href="...">Seja bem vindo!</a></li>
+                </ul>
+            </nav>
+
+            <!-- Cabeçalho (Mobile) -->
+            <nav class="navbar navbar-dark bg-primary fixed-top d-block d-sm-block d-md-none d-sm-none d-md-block block">
+                <div class="container-fluid">
+                    <img src="icons8-turtle-64 (1).png"
+                        class="logows d-block d-sm-block d-md-none d-sm-none d-md-block block">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1"
+                        id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Turtle Space</h5>
+                            <button type="button" class="btn-close btn-close-white"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"><i
+                                            class="fa-solid fa-house"></i> Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Perfil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-users"></i> Amigos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="fa-solid fa-file-arrow-down"></i>
+                                    <li><a href="...">Adicionar</a></li>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-calendar-days"></i>
+                                        Eventos</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder=""
+                                    aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Conteúdo do site FIXO -->
+        <main>
+            <div>
+                <h1 class="bg-primary text-light p-4 mb-0 d-none d-sm-block">
+                    <p class="mt-2 fs-2 text-uppercase fw-bold">Turtle Space</p>
+                </h1>
+                <nav
+                    class="caixa-menuprincipal bg-primary mt-2 mx-4 text-light d-none d-sm-block">
+                    <ul class="text-center">
+                        <i class="fa-solid fa-house"></i>
+                        <li><a href="home.html">Home</a></li>
+                        <i class="fa-solid fa-user"></i>
+                        <li><a href="perfil.html">Perfil</a></li>
+                        <i class="fa-solid fa-users"></i>
+                        <li><a href="amigos.html">Amigos</a></li>
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                        <li><a href="inserir_projeto.html">Adicionar</a></li>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <li><a href="eventos.html">Eventos</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Conteúdo do site -->
+                <div class="perfil">
+                    <img src="img/fundokayk.jpg" id="capa" alt="capa" width="800" height="400">
+                    <img src="img/foto.kaykk.jpg" id="fotoperf" alt="fotoperfil" >
+                    <h3>kaykzzz_</h3>
+                    <div class="dados">
+                        <h4>Descrição:</h4>
+                        <p>Olá, muito prazer, sou o Kayk. Sou apaixonado por Trap.</p>
+                        <h4>Contato:</h4>
+                        <p>(xx)xxxxx-xxxx</p>
+                    </div>
+                    <div class="proj">
+                        <h4>Meus Projetos</h4>
+                        <div class="videos">
+                            <p class="user">kaykzzz_</p>
+                            <p>Ainda não tenho nenhum projeto publicado, porém segue abaixo meu Instagram para
+                                acompanharem as novidades</p>
+                            <a href="https://www.instagram.com/kaykzzz_/" target="_blank">Instagram</a>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    </html>
