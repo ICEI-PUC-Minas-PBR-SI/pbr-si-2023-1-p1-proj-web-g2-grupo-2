@@ -5,4 +5,4 @@ Rafael Cunha Santos, ficou responsável pela criação da tela de amigos, com fu
 
 Rodrigo Fernandes, ficou responsável por gravar o vídeo apresentando a aplicação e por hospedar o site.
 
-Eduardo Gobbi Gualberto, ficou responsável pela criação das telas de perfis.
+Eduardo Gobbi Gualberto, ficou responsável pela criação das telas de perfis e apoio na hospedagem do site no Apache.
