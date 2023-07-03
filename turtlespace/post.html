@@ -41,28 +41,37 @@
   <script>
    // Função para postar o tweet
 function postar() {
-          var tweet = document.querySelector('.input.editable').innerText;
-          var tweets = [];
-          
-          // Verifica se já existem tweets armazenados no Local Storage
-          if (localStorage.getItem('tweets')) {
-            tweets = JSON.parse(localStorage.getItem('tweets'));
-          }
-          
-          // Obtém o nome do usuário armazenado no Local Storage
-          var username = localStorage.getItem('username');
-          
-          // Adiciona o novo tweet com o nome do usuário à lista
-          tweets.push(username + ': ' + tweet);
+  var tweet = document.querySelector('.input.editable').innerText;
+  var tweets = [];
 
-          alert("Post enviado com sucesso!");
+  // Verifica se já existem tweets armazenados no Local Storage
+  if (localStorage.getItem('tweets')) {
+    tweets = JSON.parse(localStorage.getItem('tweets'));
+  }
 
-          
-          // Armazena a lista atualizada no Local Storage
-          localStorage.setItem('tweets', JSON.stringify(tweets));
-        }
+  // Obtém o nome do usuário armazenado no Local Storage
+  var username = localStorage.getItem('username');
 
+  // Adiciona o novo tweet com o nome do usuário à lista
+  tweets.push(username + ': ' + tweet);
 
+  // Limpa o conteúdo do campo de texto "Digite seu post"
+  document.querySelector('.input.editable').innerText = '';
+
+  // Mostra a mensagem de sucesso
+  var successMessage = document.createElement('div');
+  successMessage.classList.add('success-message');
+  successMessage.innerText = 'Post enviado com sucesso!';
+  document.body.appendChild(successMessage);
+
+  // Remove a mensagem de sucesso após 3 segundos
+  setTimeout(function() {
+    successMessage.remove();
+  }, 3000);
+
+  // Armazena a lista atualizada no Local Storage
+  localStorage.setItem('tweets', JSON.stringify(tweets));
+}
   </script>
 
 </body>
